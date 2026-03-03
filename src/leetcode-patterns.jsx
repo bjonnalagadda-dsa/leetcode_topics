@@ -2,14 +2,14 @@ import { useMemo, useRef, useState } from "react";
 
 /** ===== THEME (soft dark, easy on eyes) ===== */
 const THEME = {
-  page: "bg-[#0b0f14]", // ChatGPT-like dark background
-  header: "bg-[#0b0f14]/85 border-white/10",
-  card: "bg-white/[0.04] border-white/10",
-  cardHover: "hover:bg-white/[0.06] hover:border-white/15",
+  page: "bg-gradient-to-b from-[#121826] via-[#0f172a] to-[#0b1220]", // brighter navy
+  header: "bg-[#0f172a]/70 border-white/10",
+  panel: "bg-white/7 border-white/12",
+  panelHover: "hover:bg-white/10 hover:border-white/20",
   code: "bg-black/40 border-white/10",
   text: "text-white/90",
-  dim: "text-white/55",
-  faint: "text-white/35",
+  dim: "text-white/60",
+  faint: "text-white/40",
   accent: "text-emerald-300",
 };
 
