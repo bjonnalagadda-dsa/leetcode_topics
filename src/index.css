@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Optional: sensible defaults */
+/* App-wide defaults */
 :root {
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -12,12 +12,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html, body, #root {
+  height: 100%;
+  background: #0b0f14; /* ChatGPT-like dark */
+}
+
 body {
   margin: 0;
   min-width: 320px;
-  min-height: 100vh;
-}
-html, body, #root {
-  height: 100%;
-  background: #0b0f14; /* pick your preferred dark */
 }
