@@ -4,8 +4,8 @@ import { useMemo, useRef, useState } from "react";
 const THEME = {
   page: "bg-gradient-to-b from-[#121826] via-[#0f172a] to-[#0b1220]", // brighter navy
   header: "bg-[#0f172a]/70 border-white/10",
-  panel: "bg-white/7 border-white/12",
-  panelHover: "hover:bg-white/10 hover:border-white/20",
+  panel: "bg-white/5 border-white/10",
+  panelHover: "hover:bg-white/7 hover:border-white/15",
   code: "bg-black/40 border-white/10",
   text: "text-white/90",
   dim: "text-white/60",
